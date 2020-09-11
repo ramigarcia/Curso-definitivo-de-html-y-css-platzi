@@ -7,12 +7,25 @@
 </head>
 <body>
   <main>
+    <!-- FORMA MENOS EFICIENTE -->
+    <h1>Forma menos eficiente de hacer un select</h1>
     <select name="cursos" id="">
       <option value="JavaScript">JavaScript</option>
       <option value="HTML5">HTML5</option>
       <option value="CSS3">CSS3</option>
       <option value="Web Standards">Web Standards</option>
     </select>
+    <hr>
+    <!-- FORMAS MAS EFICIENTE -->
+    <h1>Forma más eficiente de hacer un select</h1>
+    <input list="cursos">
+    <datalist id="cursos">
+      <option value="JavaScript"></option>
+      <option value="HTML5"></option>
+      <option value="CSS3"></option>
+      <option value="Carrera de Frontend"></option>
+      <option value="Web Standards"></option>
+    </datalist>
   </main>
 </body>
 </html>
