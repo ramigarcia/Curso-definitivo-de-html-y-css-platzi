@@ -1,0 +1,17 @@
+/* SELECTOR POR ELEMENTO DE HTML */
+p{
+  color: blue;
+  font-size: 40px;
+}
+
+/* CLASS */
+.texto{
+  color: red;
+  font-size: 25px;
+}
+
+/* ID */
+#parrafo{
+  color: blue;
+  font-size: 50px;
+}
